@@ -1,5 +1,8 @@
 <?php
 
+ini_set('SMTP','smtp.gmail.com');
+ini_set('smtp_port',465);
+
 if(isset( $_POST['name']))
   $name = $_POST['name'];
 if(isset( $_POST['email']))
